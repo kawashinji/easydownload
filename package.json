@@ -1,5 +1,5 @@
 {
-  "name": "easyDownload",
+  "name": "file-download",
   "version": "0.1.0",
   "description": "File Download Library",
   "main": "index.ts",
