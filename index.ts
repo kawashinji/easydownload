@@ -29,7 +29,7 @@ export const run = (
         window.location.href = downloadUrl
       } else {
         link.href = downloadUrl
-        link.download = `${new Date().getTime()}.${fileExtension}`
+        link.download = `${filename}.${fileExtension}`
         document.body.appendChild(link)
         link.click()
       }
