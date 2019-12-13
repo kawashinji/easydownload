@@ -1,0 +1,30 @@
+{
+  "name": "easyDownload",
+  "version": "0.1.0",
+  "description": "File Download Library",
+  "main": "index.ts",
+  "author": "Shinji Kawaguchi <shinji.kawaguchi@clouto.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "tslint index.ts"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "path": "^0.12.7",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
