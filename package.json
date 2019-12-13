@@ -4,6 +4,7 @@
   "description": "File Download Library",
   "main": "index.ts",
   "author": "Shinji Kawaguchi <shinji.kawaguchi@clouto.io>",
+  "repository": "https://github.com/kawashinji/easydownload.git",
   "license": "MIT",
   "private": false,
   "scripts": {
