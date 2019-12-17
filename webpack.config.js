@@ -44,6 +44,9 @@ module.exports = () => {
     },
     plugins: [
       new CleanWebpackPlugin(),
+      new webpack.ProvidePlugin({
+        Promise: 'es6-promise',
+      }),
     ],
   }
 }

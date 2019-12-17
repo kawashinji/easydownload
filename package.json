@@ -1,6 +1,6 @@
 {
-  "name": "file-download",
-  "version": "0.1.0",
+  "name": "easyDownload",
+  "version": "0.1.1",
   "description": "File Download Library",
   "main": "index.ts",
   "author": "Shinji Kawaguchi <shinji.kawaguchi@clouto.io>",
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "es6-promise": "^4.2.8",
     "path": "^0.12.7",
     "prettier": "^1.19.1",
     "ts-loader": "^6.2.1",
